@@ -1,0 +1,16 @@
+# Decision layer
+typesafe-sdk>=0.7.1
+
+# Harness
+numpy
+tyro
+imageio[ffmpeg]
+pillow
+
+# Simulator -- install these into a LIBERO-compatible env, see README.
+# LIBERO pins an old robosuite; do not install it alongside newer robosuite.
+#   robosuite==1.4.1
+#   git+https://github.com/Lifelong-Robot-Learning/LIBERO.git
+
+# Tests
+pytest
